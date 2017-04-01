@@ -1,0 +1,45 @@
+html, body.login {
+    font: 14px 'Microsoft YaHei', Arial, Lucida Grande, Tahoma, sans-serif;
+}
+
+html a {
+    text-decoration: none;
+}
+
+#login {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 400px;
+    padding: 2% 0 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+}
+
+.login h1 a {
+    background: #fff url(yunclever_logo_orange.png) no-repeat center;
+    width: 264px;
+    height: 62px;
+}
+
+.updated, .login .message {
+    background: #fff;
+    border: none;
+    text-align: center;
+}
+
+.login form {
+    box-shadow: none;
+    border: none;
+}
+
+#loginform, #registerform, #lostpasswordform {
+    background: transparent;
+    border: none;
+}
+
+.button-primary, .submit .button-primary, #login form .submit input {
+    width: 83px;
+    height: 25px;
+    font-weight: bold;
+    border: none;
+}
