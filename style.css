@@ -176,7 +176,7 @@ body { font:16px Arial, Helvetica, sans-serif, "新宋体"; }
 	width: calc(100% - 5rem);
 	color:#A3A3A3;
 	font-size: 1rem;
-	margin-left: 2rem;
+	margin:0 2rem;
 	white-space:normal;
 	word-break:break-all;
 }
@@ -275,22 +275,27 @@ footer{
 }
 .controller-pre,.controller-next{
 	position: absolute;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
 	top:50%;
-	margin-top: -15px;
+	margin-top: -50px;
 	background-color: rgba(0,0,0,0.5);
 	color:#FFF;
 	cursor:pointer;
 	display: none;
 }
 .controller-pre{
-	left: 0;
+	left: -50px;
+	text-indent: 62px;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
 }
 .controller-next{
-	right: 0;
+	right: -50px;
+	text-indent: 24px;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
 }
 
 
@@ -460,7 +465,8 @@ pre{
 .project-bg{
 	width: 100%;
 	height: 40vh;
-	background: url("images/1475118e74cd0e5d042c854f97f6e103_c.jpg");
+	/*background: url("images/1475118e74cd0e5d042c854f97f6e103_c.jpg");*/
+	background-image: url("http://www.goodwaystone.com/data/template/default/images/ban_case.jpg");
 }
 
 .project-a{

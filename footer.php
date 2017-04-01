@@ -21,10 +21,10 @@
             <li class="col-md-3">
                 <ul>
                     <li><h6>Quick Link</h6></li>
-                    <li>Home</li>
-                    <li>product</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
+                    <li><a href="http://shiyuestone.hn1i2.yunclever.com">Home</a></li>
+                    <li><a href="http://shiyuestone.hn1i2.yunclever.com/product-category/product">product</a></li>
+                    <li><a href="http://shiyuestone.hn1i2.yunclever.com/about">About Us</a></li>
+                    <li><a href="http://shiyuestone.hn1i2.yunclever.com/contact">Contact Us</a></li>
                 </ul>
             </li>
             <li class="col-md-3">
