@@ -559,6 +559,7 @@ function kadima_customizer( $wp_customize ) {
 					'settings'  => 'kadima_options[custom_link_'.$ci.'_'.$i.']'
 				)
 			);
+
 		}
 	}
 	/* Portfolio Section */

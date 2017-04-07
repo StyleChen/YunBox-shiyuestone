@@ -176,15 +176,15 @@ if($(window).scrollTop() >=500){
 }
 
 	// 证书放大预览
-$(".certificate dt").click(function () {
-	console.log(0)
-	var src = $(this).find("img").attr("src");
-	$(".big").css("display","block");
-	$(".big img").attr("src",src)
-})
-    $(".big img").click(function () {
-		$(".big").css("display","none")
-    })
+/*$(".certificate dt").click(function () {
+	 console.log(0)
+	 var src = $(this).find("img").attr("src");
+	 $(".big").css("display","block");
+	 $(".big img").attr("src",src)
+	 })
+	 $(".big img").click(function () {
+	 $(".big").css("display","none")
+	 })*/
 
 
 $(".exhition .col-md-12:odd .col-md-6").css("float","right");
@@ -192,6 +192,28 @@ $(".exhition .col-md-12:odd .col-md-6").css("float","right");
 
 $(".productDetail").prepend("<li style='background: #E47629;'><h3 class='text-center'>Product List</h3></li>");
 $(".current-menu-parent").addClass("active");
+
+
+
+
+// home-about
+$(".num").hover(function () {
+	$(this).siblings().removeClass("num-hover");
+	$(this).addClass("num-hover");
+	var el = $(".num");
+	for(var i=0;i<el.length;i++){
+		if(el[i] == $(this)[0]){
+			$(".num-content p").addClass("hide")
+			$(".num-content p").eq(i).removeClass("hide");
+		}
+	}
+},function () {
+
+})
+
+
+
+
 })
 jQuery(document).ready(function($) {
     $('.zm_banners').backstretch([

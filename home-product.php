@@ -22,14 +22,14 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h5 class="secH5 animated"><?php echo esc_attr($wl_theme_options["custom_title_1_".$i]) ?></h5>
+                    <h5 class="secH5 animated"><?php echo esc_attr($wl_theme_options["custom_title_1"]) ?></h5>
                     <ul class="secUl">
                         <li class="animated">
-                            <h6 class="left"><?php echo esc_attr($wl_theme_options["custom_title_1_".$i]) ?></h6>
-                            <p class="left"><?php echo esc_attr($wl_theme_options["custom_text_1_".$i]) ?></p>
+                            <h6 class="left">Origin:</h6>
+                            <p class="left"><?php echo esc_attr($wl_theme_options["custom_title_1_".$i]) ?></p>
                         </li>
                         <li class="animated">
-                            <h6 class="left"><?php echo esc_attr($wl_theme_options["custom_title_1_".$i]) ?></h6>
+                            <h6 class="left">Surface finished:</h6>
                             <p class="left"><?php echo esc_attr($wl_theme_options["custom_text_1_".$i]) ?></p>
                         </li>
                     </ul>
@@ -39,10 +39,10 @@
         </div>
     </div>
     <div class="controller-pre">
-        ←
+        <<
     </div>
     <div class="controller-next">
-        →
+        >>
     </div>
 </section>
 <!-- /portfolio section -->
@@ -57,14 +57,14 @@
             if(!empty($wl_theme_options["custom_img_2_".$r])) { ?>
             <div class="secItem2">
                 <div class="col-md-8">
-                    <h5 class="secH5 animated"><?php echo esc_attr($wl_theme_options["custom_title_2_".$r]) ?></h5>
+                    <h5 class="secH5 animated"><?php echo esc_attr($wl_theme_options["custom_title_2"]) ?></h5>
                     <ul class="secUl">
                         <li class="animated">
-                            <h6 class="right"><?php echo esc_attr($wl_theme_options["custom_title_2_".$r]) ?></h6>
-                            <p class="right text-right"><?php echo esc_attr($wl_theme_options["custom_text_2_".$r]) ?></p>
+                            <h6 class="right">Origin:</h6>
+                            <p class="right text-right"><?php echo esc_attr($wl_theme_options["custom_title_2_".$r]) ?></p>
                         </li>
                         <li class="animated">
-                            <h6 class="right"><?php echo esc_attr($wl_theme_options["custom_title_2_".$r]) ?></h6>
+                            <h6 class="right">Surface finished:</h6>
                             <p class="right text-right"><?php echo esc_attr($wl_theme_options["custom_text_2_".$r]) ?></p>
                         </li>
                     </ul>
@@ -86,9 +86,9 @@
 
     </div>
     <div class="controller-pre">
-        ←
+        <<
     </div>
     <div class="controller-next">
-        →
+        >>
     </div>
 </section>
